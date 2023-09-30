@@ -24,10 +24,10 @@ namespace WPFCustomDialogTesting
         public MainWindow()
         {
             InitializeComponent();
-            CommonEvents.ModalConfirmDialogCallbackHandler += CommonEvents_ModalPopupCallbackHandler;
+            CommonEvents.ModalConfirmDialogCallBackHandler += CommonEvents_ModalConfirmDialogCallBackHandler;
         }
 
-        private void CommonEvents_ModalPopupCallbackHandler(object sender, ProcessEventArgs e)
+        private void CommonEvents_ModalConfirmDialogCallBackHandler(object sender, ProcessEventArgs e)
         {
             if (e.DialogResult)
             {

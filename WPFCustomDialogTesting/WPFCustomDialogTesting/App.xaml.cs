@@ -24,15 +24,15 @@ namespace WPFCustomDialogTesting
         private void ModalPopupSetup()
         {
 
-            ModalPopupConfigurationSetup.ModalPopupBodyBackgroundColor = new SolidColorBrush(Colors.Black);
+            ModalPopupConfigurationSetup.ModalPopupBodyBackgroundColor = new SolidColorBrush(Colors.Yellow);
             ModalPopupConfigurationSetup.ModalPopupButtonBottomAlignment = HorizontalAlignment.Right;
             ModalPopupConfigurationSetup.ModalPopupButtonWidth = 100.0;
-            ModalPopupConfigurationSetup.ModalPopupMessageTextColor = new SolidColorBrush(Colors.White);
+            ModalPopupConfigurationSetup.ModalPopupMessageTextColor = new SolidColorBrush(Colors.Black);
             ModalPopupConfigurationSetup.ModalPopupMessageTextFontSize = 15.0;
             ModalPopupConfigurationSetup.ModalPopupButtonDisplayBackgroundColor = new SolidColorBrush(Colors.Blue);
             ModalPopupConfigurationSetup.ModalPopupButtonTextColor = new SolidColorBrush(Colors.White);
-            ModalPopupConfigurationSetup.ModalPopupMouseHoveButtonBackgroundColor = new SolidColorBrush(Colors.OrangeRed);
-            ModalPopupConfigurationSetup.ModalpopupMouseHoverButtonForegroundColor = new SolidColorBrush(Colors.White);
+            ModalPopupConfigurationSetup.ModalPopupMouseHoverButtonBackgroundColor = new SolidColorBrush(Colors.OrangeRed);
+            ModalPopupConfigurationSetup.ModalPopupMouseHoverButtonForegroundColor = new SolidColorBrush(Colors.White);
         }
     }
 }
