@@ -7,7 +7,9 @@
         mc:Ignorable="d" Background="Gray" WindowState="Maximized"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button Content="Confirm Popup"  x:Name="BtnConfirm" Width="100" Height="40" HorizontalAlignment="Left" VerticalAlignment="Top" Click="BtnConfirm_Click" Margin="170,192,0,0"/>
-        <Button Content="Alert Popup" Margin="450,192,0,0" x:Name="BtnAlert" Width="100" Height="40" HorizontalAlignment="Left" VerticalAlignment="Top" Click="BtnAlert_Click"/>
+        <Button Content="Confirm Popup"  x:Name="BtnConfirm" Width="230" Height="40" HorizontalAlignment="Left" VerticalAlignment="Top" Click="BtnConfirm_Click" Margin="435,39,0,0"/>
+        <Button Content="Alert Popup" Margin="40,39,0,0" x:Name="BtnAlert" Width="230" Height="40" HorizontalAlignment="Left" VerticalAlignment="Top" Click="BtnAlert_Click"/>
+        <Button Content="Comprehensive Alert Popup"  x:Name="BtnComprehensiveAlertPopup" Width="230" Height="40" HorizontalAlignment="Left" VerticalAlignment="Top" Click="BtnComprehensiveAlertPopup_Click" Margin="40,192,0,0" />
+        <Button Content="Comprehensive Confirm Modal Popup"  x:Name="BtnComprehensiveConfirmModalPopup" Width="230" Height="40" HorizontalAlignment="Left" VerticalAlignment="Top" Click="BtnComprehensiveConfirmModalPopup_Click" Margin="435,192,0,0"/>
     </Grid>
 </Window>

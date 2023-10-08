@@ -24,7 +24,7 @@ namespace WPFCustomDialogTesting
         public MainWindow()
         {
             InitializeComponent();
-            CommonEvents.ModalConfirmDialogCallBackHandler += CommonEvents_ModalConfirmDialogCallBackHandler;
+            SharedOccurrenceEventsHandler.ModalConfirmDialogCallBackHandler += CommonEvents_ModalConfirmDialogCallBackHandler;
         }
 
         private void CommonEvents_ModalConfirmDialogCallBackHandler(object sender, ProcessEventArgs e)
@@ -41,13 +41,22 @@ namespace WPFCustomDialogTesting
 
         private void BtnAlert_Click(object sender, RoutedEventArgs e)
         {
-            ModalCustomAlertPopupInstanceHandler.GetInstance.ShowCustomAlertDialog(headerTitle:"Information",modalPopupMessageText:"This is a custom message box",messageBoxImageIconType:CustomMessageBoxImage.Information, modalPopupButtonText:"OK");
-            
+            CustomMessageBoxHandler.GetInstance.DisplayCustomAlertMessageBox(headerTitle: "Information", modalPopupMessageText: "This is a custom message box", messageBoxImageIconType: CustomMessageBoxImage.Exclamation, modalPopupButtonText: "OK");
         }
 
         private void BtnConfirm_Click(object sender, RoutedEventArgs e)
         {
-            ModalCustomAlertPopupInstanceHandler.GetInstance.ShowCustomCustomConfirmDialog(headerTitle: "Information", modalPopupMessageText: "Do you want to close this popup?", messageBoxImageIconType: CustomMessageBoxImage.Information, modalPopupFirstButtonText: "OK", modalPopupSecondButtonText: "Cancel");
+            CustomMessageBoxHandler.GetInstance.DisplayCustomConfirmationMessageBox(headerTitle: "Information", modalPopupMessageText: "Do you want to close this popup?Do you want to close this popup?Do you want to close this popup?", messageBoxImageIconType: CustomMessageBoxImage.Error, modalPopupFirstButtonText: "OK", modalPopupSecondButtonText: "Cancel");
+        }
+
+        private void BtnComprehensiveAlertPopup_Click(object sender, RoutedEventArgs e)
+        {
+            CustomMessageBoxHandler.GetInstance.DisplayComprehensiveCustomAlertMessageBox(headerTitle: "Information", modalPopupMessageText: "This is a custom message box", messageBoxImageIconType: CustomMessageBoxImage.Question, modalPopupButtonText: "Okay");
+        }
+
+        private void BtnComprehensiveConfirmModalPopup_Click(object sender, RoutedEventArgs e)
+        {
+            CustomMessageBoxHandler.GetInstance.DisplayComprehensiveCustomConfirmMessageBox(headerTitle: "Message", modalPopupMessageText: "This is a custom confirm message box", messageBoxImageIconType: CustomMessageBoxImage.Hand, modalPopupFirstButtonText: "Okay", modalPopupSecondButtonText: "Close");
         }
     }
 }

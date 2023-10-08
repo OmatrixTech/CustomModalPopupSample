@@ -51,7 +51,7 @@
     <Reference Include="PresentationFramework" />
     <Reference Include="WPF.Custom.PopupDialogs, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\ExamplesCSharp\WPFCustomDialogTesting\WPFCustomDialogTesting\DLL\WPF.Custom.PopupDialogs.dll</HintPath>
+      <HintPath>..\..\..\..\ExamplesCSharp\PROJECTACTUALSOURCECODE\WPF.Custom.PopupDialogs\WPF.Custom.PopupDialogs\bin\Release\WPF.Custom.PopupDialogs.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -100,7 +100,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="DLL\WPF.Custom.PopupDialogs.dll" />
+    <Resource Include="Resources\Images\CameraControl.png" />
+    <Resource Include="Resources\Images\PopupDefaultIcon.png" />
+    <Resource Include="Resources\Images\PopupMsgImg.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
