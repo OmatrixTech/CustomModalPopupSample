@@ -34,5 +34,3 @@ E:\E Data\YouTubeVideo\OmatrixTech\GITCLONES\WPFCustomModalPopupSample\WPFCustom
 E:\E Data\YouTubeVideo\OmatrixTech\GITCLONES\WPFCustomModalPopupSample\WPFCustomDialogTesting\WPFCustomDialogTesting\obj\Debug\WPFCustomDialogTesting.csproj.CopyComplete
 E:\E Data\YouTubeVideo\OmatrixTech\GITCLONES\WPFCustomModalPopupSample\WPFCustomDialogTesting\WPFCustomDialogTesting\obj\Debug\WPFCustomDialogTesting.exe
 E:\E Data\YouTubeVideo\OmatrixTech\GITCLONES\WPFCustomModalPopupSample\WPFCustomDialogTesting\WPFCustomDialogTesting\obj\Debug\WPFCustomDialogTesting.pdb
-E:\E Data\YouTubeVideo\OmatrixTech\GITCLONES\WPFCustomModalPopupSample\WPFCustomDialogTesting\WPFCustomDialogTesting\bin\Debug\WPF.Custom.PopupDialogs.pdb
-E:\E Data\YouTubeVideo\OmatrixTech\GITCLONES\WPFCustomModalPopupSample\WPFCustomDialogTesting\WPFCustomDialogTesting\bin\Debug\WPF.Custom.PopupDialogs.dll.config
