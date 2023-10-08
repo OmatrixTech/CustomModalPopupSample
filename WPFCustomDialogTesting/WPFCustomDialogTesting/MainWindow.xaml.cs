@@ -51,12 +51,12 @@ namespace WPFCustomDialogTesting
 
         private void BtnComprehensiveAlertPopup_Click(object sender, RoutedEventArgs e)
         {
-            CustomMessageBoxHandler.GetInstance.DisplayComprehensiveCustomAlertMessageBox(headerTitle: "Information", modalPopupMessageText: "This is a custom message box", messageBoxImageIconType: CustomMessageBoxImage.Question, modalPopupButtonText: "Okay");
+            CustomMessageBoxHandler.GetInstance.DisplayComprehensiveCustomAlertMessageBox(headerTitle: "Information", modalPopupMessageText: "You can rewrite \"CommonEvents\" as \"SharedOccurrences\" or \"UniversalOccurrences\" depending on the context and specific meaning you want to convey.", messageBoxImageIconType: CustomMessageBoxImage.Question, modalPopupButtonText: "Okay");
         }
 
         private void BtnComprehensiveConfirmModalPopup_Click(object sender, RoutedEventArgs e)
         {
-            CustomMessageBoxHandler.GetInstance.DisplayComprehensiveCustomConfirmMessageBox(headerTitle: "Message", modalPopupMessageText: "This is a custom confirm message box", messageBoxImageIconType: CustomMessageBoxImage.Hand, modalPopupFirstButtonText: "Okay", modalPopupSecondButtonText: "Close");
+            CustomMessageBoxHandler.GetInstance.DisplayComprehensiveCustomConfirmMessageBox(headerTitle: "Message", modalPopupMessageText: "You can rewrite \"CommonEvents\" as \"SharedOccurrences\" or \"UniversalOccurrences\" depending on the context and specific meaning you want to convey.", messageBoxImageIconType: CustomMessageBoxImage.Hand, modalPopupFirstButtonText: "Okay", modalPopupSecondButtonText: "Close");
         }
     }
 }

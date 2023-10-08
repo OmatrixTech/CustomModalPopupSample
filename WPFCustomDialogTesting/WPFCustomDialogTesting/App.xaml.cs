@@ -24,7 +24,7 @@ namespace WPFCustomDialogTesting
              ModalPopupMouseHoverButtonForegroundColor: new SolidColorBrush(Colors.Black),
              ModalPopupBodyBackgroundColor: new SolidColorBrush(Colors.White),
              ModalPopupMessageTextColor: new SolidColorBrush(Colors.Red),
-             ModalPopupMessageTextFontSize: 25.0,
+             ModalPopupMessageTextFontSize: 15.0,
              ModalPopupMessageTextFontFamily: new FontFamily("Courier New Bold Italic"),
              ModalPopupButtonBottomAlignment: HorizontalAlignment.Right,
              ModalPopupButtonWidth: 100.0,
@@ -33,7 +33,7 @@ namespace WPFCustomDialogTesting
              ModalPopupHeaderBackgroundColor: new SolidColorBrush(Colors.Black),
              ModalPopupHeaderTitleTextColor: new SolidColorBrush(Colors.Red),
              ModalPopupHeaderFontFamily: new FontFamily("Times New Roman"),
-             ModalPopupHeaderFontSize: 23.0,
+             ModalPopupHeaderFontSize: 12.0,
              ModalPopupHeaderIcon: CreateImageSourceFromPackUri());
         }
         public ImageSource CreateImageSourceFromPackUri()
